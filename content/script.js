@@ -1,3 +1,7 @@
+function onclickSubmit() {
+    alert("Ooops... Scam moment! (Chill out, it's a joke)");
+}
+
 window.onload = function () {
 
 const name = document.getElementById('name');
@@ -278,3 +282,4 @@ securitycode.addEventListener('focus', function () {
     document.querySelector('.creditcard').classList.add('flipped');
 });
 };
+
